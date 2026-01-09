@@ -1,0 +1,15 @@
+//
+// DevOps
+//
+
+Key Practices & Tools
+Infrastructure as Code (IaC): Managing infrastructure through code (e.g., Terraform).
+Containerization: Using tools like Docker for consistent environments.
+Orchestration: Managing containers with Kubernetes.
+CI/CD Tools: Jenkins, GitLab CI, Azure Pipelines.
+Cloud Platforms: Leveraging services from AWS, Azure, etc..
+Benefits
+Faster time-to-market for new features.
+Improved reliability and stability of applications.
+Enhanced collaboration and efficiency.
+Better alignment with business goals.
