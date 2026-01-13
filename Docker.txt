@@ -1,0 +1,111 @@
+//
+// Docker
+//
+
+Install Docker Engine on Ubuntu :-
+https://docs.docker.com/engine/install/ubuntu/
+
+
+Run -start a container
+docker run nginx
+--Unable to find image 'nginx:latest' locally
+
+ps -list containers
+docker ps
+docker ps -a
+
+STOP -stop a container
+docker ps
+docker stop silly_sammet
+docker ps -a
+
+Rm -remove a container
+docker rm silly_sammet
+docker ps -a
+
+images -List images
+docker images
+
+rmi -Remove images
+docker rmi nginx
+
+Pull -download an image
+docker run nginx
+docker pull nginx
+
+docker run ubuntu
+docker ps
+CONTAINER ID    IMAGE   COMMAND   CREATED   STATUS
+docker ps -a
+CONTAINER ID    IMAGE   COMMAND     CREATED         STATUS
+45aacca3GB50    ubuntu  '/bin/bash  43 seconds ago  Exited (0) 41 seconds ago
+
+Append a command
+docker run ubuntu
+docker run ubuntu sleep 5
+
+Exec -execute a command
+docker ps -a
+docker exec distracted_mcclintock cat /etc/hosts
+
+Run -attach and detach
+docker run kodekloud/simple-webapp
+docker run -d kodekloud/simple-webapp
+docker attach a043d
+
+
+<<-- Demo -->>
+docker run -it centos bash
+  cat /etc/*release*
+  CentOS Linux release 7.3.1 ( Core )
+
+docker run -d centos sleep 20
+62b3cd
+docker stop serene_pasteur
+docker rm d7f5a
+docker rm 345 e0a 773
+
+docker images
+  busybox
+  ubuntu
+  centos
+  hello-world
+
+docker rmi busybox
+
+docker pull ubuntu
+docker images
+ubuntu    latest    cc65b1
+docker run -d ubuntu sleep 100
+docker exec 3a7ca7 cat /etc/*release*
+
+
+
+<<-- Accessing the labs -->>
+Link: https://udlabs.kodekloud.com/courses/udemy-labs-docker-for-the-absolute-beginner/
+
+
+
+<<-- Labs - Basic Docker Commands -->>
+labs: https://udlabs.kodekloud.com/topic/labs-basic-docker-commands-beta-5/
+
+
+
+
+
+
+Summary : ---------------------<<<<<
+docker ps -a
+
+docker run nginx
+docker stop silly_sammet
+docker rm silly_sammet
+
+docker images
+docker rmi nginx
+docker run nginx
+docker pull nginx
+docker run ubuntu sleep 5
+
+docker exec distracted_mcclintock cat /etc/hosts
+docker run -d kodekloud/simple-webapp
