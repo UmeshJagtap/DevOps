@@ -16,3 +16,5 @@ Better alignment with business goals.
 
 Refs :-
 https://stackblitz.com/edit/base-react-tailwind-pj9tqmnr?file=src%2Fcomponents%2FDocker
+
+Jenkins >> https://github.com/iam-veeramalla/Jenkins-Zero-To-Hero/tree/main/java-maven-sonar-argocd-helm-k8s
